@@ -8,5 +8,5 @@ gbmTrain <- function(Xtrain = 'x_train.csv', ytrain = 'y_train.csv',
 		data=x_train,distribution="gaussian", shrinkage=0.01,
 		interaction.depth=2, n.minobsinnode=1,n.trees=300)
 	pred<-predict.gbm(model,x_test,n.trees=300)
-	mse(y_test,pred)
+	mae(y_test,pred)
 }

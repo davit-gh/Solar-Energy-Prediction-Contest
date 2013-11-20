@@ -73,5 +73,5 @@ def makePrediction(test_file = "spline_test.csv",sampleSubmission_file = "sample
 	
 if __name__ == '__main__':
     mae, cls = GradBoost(X,y)
-	print mae
+	print mae #Out: 1841064.8366720795
 	makePrediction()
