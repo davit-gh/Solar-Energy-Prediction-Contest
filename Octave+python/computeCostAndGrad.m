@@ -15,6 +15,7 @@ J = 1/2/m*(X*theta-y)'*(X*theta-y);
 
 end
 
+
 % Computes optimal 'theta' values using advance 
 % optimization function fminunc
 % Performs cross - valiation and outputs average MAE
